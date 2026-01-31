@@ -78,12 +78,12 @@ El protocolo opera bajo una máquina de estados simplificada para la toma de dec
 Se diseñó una topología con una "trampa" o vacío cóncavo para forzar el fallo del algoritmo Greedy tradicional.
 
 ### Topología
-![Topología de Red](ruta_a_tu_imagen/manet.png)
+![Topología de Red](images/manet.png)
 *Los nodos 5 y 6 representan un callejón sin salida. La ruta viable requiere un desvío por la parte superior (Nodos 8, 7, 10).*
 
 ### Resultado: Ruta Establecida
 Tras una fase inicial de aprendizaje donde se detectan los bloqueos, la red converge y establece una ruta exitosa bordeando el vacío:
-![Ruta Final](ruta_a_tu_imagen/ruta_final.jpg)
+![Ruta Final](images/ruta_final.png)
 
 **Evidencia de funcionamiento:**
 * Detección de `VOID` en nodo 5.
